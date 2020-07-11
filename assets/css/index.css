@@ -219,8 +219,9 @@ hr {
         width: 439px;
     }
     .gallery img {
-        /* width: min-content;
-        height: auto; */
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
     }
 }
 
