@@ -43,6 +43,9 @@ nav {
     padding-right: 20px;
     color: #4d4d4d;
 }
+.navbar .btn:hover {
+    color: #000;
+}
 .navbar-nav .nav-link {
     color: #666666;
     text-transform: capitalize;
@@ -67,6 +70,7 @@ nav {
     background-image: url('../img/heroimage.png');
     background-position: center;
     height: 600px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -183,11 +187,29 @@ hr {
     padding: 15px;
 }
 /* Small devices (landscape phones, 576px and below) */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     nav {
         margin-right: 10px;
         margin-left: 15px;
     }
+    .navbar-brand {
+        font-size: 12px;
+        letter-spacing: 0.4em;
+        line-height: 16px;
+    }
+    .hero-image {
+        height: 600px;
+        width: 100%;
+    }
+    .hero-text {
+        text-align: center;
+        font-size: 48px;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+      }
     .d-flex, .flew-row ,.d-md-flex, .d-sm-flex, .flex-sm-row, .flex-md-row .p-2 {
         display: block!important;
         width: 100%;
@@ -211,7 +233,7 @@ hr {
         padding: 0;
         text-align: center;
     }
-    .d-content hr {
+    .content-text2 hr {
         display: none;
     }
     .p-2 img {
@@ -221,7 +243,7 @@ hr {
     .gallery img {
         width: 100%;
         height: auto;
-        padding: 20px 0;
+        padding: 18px 0;
     }
 }
 
